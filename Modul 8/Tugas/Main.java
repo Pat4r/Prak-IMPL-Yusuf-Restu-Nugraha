@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        // Test Shapes
         Point center = new Point(5, 5);
         Circle circle = new Circle(10, center);
         Rectangle rectangle = new Rectangle();
@@ -16,13 +15,11 @@ public class Main {
         polygon.draw();
         polygon.erase();
 
-        // Test Window
         Window window = new Window();
         window.open();
         window.display();
         window.handleEvent("Click");
 
-        // Test Drawing Context
         DrawingContext context = new DrawingContext();
         context.setPoint();
         context.clearScreen();
